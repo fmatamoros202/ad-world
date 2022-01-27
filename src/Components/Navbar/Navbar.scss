@@ -1,0 +1,20 @@
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #11e9e952;
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+  }
+
+  &__element {
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+}
+
+.link {
+  text-decoration: none;
+}

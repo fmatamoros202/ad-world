@@ -6,9 +6,7 @@ function Home(props) {
     return (
         <>
         <div>
-            This is the landing page for this app. 
         </div>
-        <Link to='/world'>World</Link>
         </>
     );
 }
