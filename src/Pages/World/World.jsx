@@ -27,7 +27,7 @@ function World(props) {
                 {/* <pointLight intensity={0.7} color='red' position={[0,2,1]}/> */}
                 <Suspense fallback='null'>
                     <Plane position={[0,-1,0]}/>
-                    <House color='red' position={[0,5,0]}/>
+                    <House  position={[0,5,0]}/>
                 </Suspense>
             </Canvas>
         </div>
