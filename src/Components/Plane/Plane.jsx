@@ -14,9 +14,9 @@ function Plane(props) {
 
 
     return (
-       <mesh rotation={[-Math.PI / 2,0,0]}>
+       <mesh rotation={[-Math.PI / 2,0,0]} receiveShadow>
            <planeBufferGeometry  args={[100,100]}/>
-           <meshStandardMaterial map={planeTexture}/>
+           <meshStandardMaterial color='hotpink'/>
        </mesh>
     );
 }
