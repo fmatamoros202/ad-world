@@ -12,6 +12,12 @@
   &__element {
     text-decoration: none;
     margin-right: 1rem;
+    font-weight: 700;
+    color: black;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 

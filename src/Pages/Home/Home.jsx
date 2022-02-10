@@ -15,7 +15,7 @@ function Home(props) {
         <section className='section'>
             <div className="section__container">
                 <h2 className="subTitle" >Create Your Objects</h2>
-                <Canvas className='canvas-element' camera={{position:[0,10,25]}}>
+                <Canvas className='canvas-element' camera={{fov: 90, position:[0,10,25]}}>
                     {/* <OrbitControls/> */}
                     <ambientLight intensity={10}/>
                     <pointLight intensity={2}  position={[0,5,50]}/>
@@ -26,7 +26,7 @@ function Home(props) {
             </div>
             <div className="section__container">
                 <h2 className="subTitle" >Showcase Them In Your World</h2>
-                <Canvas  className='canvas-element' camera={{position:[0,10,25]}}>
+                <Canvas  className='canvas-element' camera={{fov: 90, position:[0,10,25]}}>
                     {/* <OrbitControls/> */}
                     <ambientLight intensity={0.5}/>
                     <pointLight intensity={10} position={[0,2,20]}/>
@@ -37,7 +37,7 @@ function Home(props) {
             </div>
             <div className="section__container">
                 <h2 className="subTitle" >Sell Advertising Space </h2>
-                <Canvas linear='true' className='canvas-element' camera={{position:[0,10,25]}}>
+                <Canvas linear='true' className='canvas-element' camera={{fov:90, position:[0,10,25]}}>
                     {/* <OrbitControls/> */}
                     <ambientLight intensity={10}/>
                     <pointLight intensity={2} position={[0,2,15]}/>
